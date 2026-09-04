@@ -1,8 +1,11 @@
 {
   "name": "personal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lexi James's authorial voice, thinking models, and review rubric, as a Claude Code skill.",
-  "author": { "name": "Lexi James", "url": "https://github.com/lexijamesesq" },
+  "author": {
+    "name": "Lexi James",
+    "url": "https://github.com/lexijamesesq"
+  },
   "repository": "https://github.com/lexijamesesq/personal-skills",
   "license": "MIT",
   "skills": "./skills",
