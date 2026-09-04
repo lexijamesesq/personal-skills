@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "personal",
+  "owner": { "name": "Lexi James", "url": "https://github.com/lexijamesesq" },
+  "metadata": { "description": "Lexi James's authorial voice, thinking models, and review rubric, as a Claude Code skill." },
+  "plugins": [
+    {
+      "name": "personal",
+      "source": "./",
+      "description": "Lexi James's authorial voice, thinking models, and review rubric, as a Claude Code skill.",
+      "license": "MIT",
+      "repository": "https://github.com/lexijamesesq/personal-skills"
+    }
+  ]
+}
