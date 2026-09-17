@@ -1,0 +1,20 @@
+# THROWAWAY: proves whether a PUBLIC repo may call dotty-private's PRIVATE
+# reusable. pr:"0" makes the floor-gate fail fast so the self-hosted council
+# never runs. Delete this workflow + branch after observing the result.
+name: zz-margot-access-test
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+  checks: read
+  pull-requests: read
+
+jobs:
+  access-test:
+    uses: lexijamesesq/dotty-private/.github/workflows/margot-review.yml@8a6b0b15f083e79819af4a5e7046e3266474abdc
+    with:
+      pr: "0"
+      mode: review
+      head_sha: ""
